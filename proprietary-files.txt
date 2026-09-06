@@ -112,9 +112,6 @@ vendor/firmware/dsp_ivp_dm.bin
 vendor/firmware/dsp_ivp_dm_do.bin
 vendor/firmware/dsp_ivp_pm.bin
 vendor/firmware/dsp_ivp_pm_do.bin
-vendor/firmware/libivp.elf
-vendor/firmware/liblog.elf
-vendor/firmware/libnn.elf
 
 # DRM Firmware
 vendor/firmware/OD_V2.1.6_01_26_QVGA.nnc
@@ -178,3 +175,28 @@ vendor/firmware/bcmdhd_mon.bin_b1
 vendor/firmware/bcmdhd_sta.bin_b1
 vendor/firmware/nvram.txt_1rh_es43_b1
 vendor/firmware/nvram.txt_CS01_semco_b1
+
+# Audio policy configs (restored - confirmed present in dump)
+vendor/etc/mixer_gains.xml
+vendor/etc/audio_effects_common.conf
+vendor/etc/audio_effects_sec.xml
+vendor/etc/audio_policy_volumes.xml
+vendor/etc/default_volume_tables.xml
+vendor/etc/hearing_aid_audio_policy_configuration.xml
+vendor/etc/mixer_paths.xml
+vendor/etc/playback_record_audio_policy_configuration.xml
+vendor/etc/r_submix_audio_policy_configuration.xml
+vendor/etc/usb_audio_policy_configuration.xml
+
+# Voice trigger HAL
+vendor/lib/hw/sound_trigger.primary.exynos2100.so
+
+# Audio firmware
+vendor/firmware/APVD_AUDIO_SLSI.bin
+vendor/firmware/txse4.bin
+
+# Bluetooth
+vendor/firmware/bcm4375B1_semco.hcd
+
+# DRM
+vendor/lib/liboemcrypto.so
