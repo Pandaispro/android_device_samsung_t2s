@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version G990EXXSIGYI3, unless pinned
+# Proprietary files - from Samsung package version G996BXXSJHZC2, unless pinned
 
 # Audio
 vendor/etc/dolby/dax-default.xml
@@ -169,7 +169,7 @@ vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 
 # TSP firmware
-vendor/firmware/y792_o1.bin
+vendor/firmware/y792_t2.bin
 
 # Wi-Fi
 vendor/firmware/bcmdhd_clm.blob

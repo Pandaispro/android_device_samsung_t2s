@@ -97,6 +97,7 @@ exynos-idle-profiler.ko
 exynos-pm-dvs.ko
 s2mpb02-regulator.ko
 s2mpb03.ko
+s2dos05-regulator.ko
 exynos_tty.ko
 exyswd-rng.ko
 samsung_iommu.ko
@@ -196,7 +197,7 @@ sec_mparam.ko
 sec_class.ko
 sec_bootstat.ko
 sec_argos.ko
-isg5320a.ko
+sx9360.ko
 sec_debug.ko
 sec_debug_test.ko
 sec_debug_dprm.ko
@@ -230,12 +231,11 @@ if_cb_manager.ko
 pdic_notifier_module.ko
 pca9468-charger.ko
 hall_ic.ko
-pwm-config.ko
 abc.ko
 abc_hub.ko
 mfd_max77705.ko
 max77705-fuelgauge.ko
-max77705_vibrator.ko
+cs40l2x_vib.ko
 broadcom-sensorhub.ko
 sensors_core.ko
 slsi_ts.ko

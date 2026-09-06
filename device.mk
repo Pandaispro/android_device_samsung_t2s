@@ -7,7 +7,7 @@
 $(call inherit-product, device/samsung/universal2100-common/common.mk)
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/samsung/o1s/o1s-vendor.mk)
+$(call inherit-product, vendor/samsung/t2s/t2s-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -25,8 +25,8 @@ PRODUCT_COPY_FILES += \
 
 # Recovery/vendor_boot firmware
 PRODUCT_COPY_FILES += \
-    vendor/samsung/o1s/proprietary/vendor/firmware/y792_o1.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/y792_o1.bin \
-    vendor/samsung/o1s/proprietary/vendor/firmware/y792_o1.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/y792_o1.bin
+    vendor/samsung/t2s/proprietary/vendor/firmware/y792_t2.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/y792_t2.bin \
+    vendor/samsung/t2s/proprietary/vendor/firmware/y792_t2.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/y792_t2.bin
 
 # Sensors
 PRODUCT_COPY_FILES += \

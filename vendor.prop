@@ -1,7 +1,7 @@
-## vendor prop for o1s
+## vendor prop for t2s
 
 ## Fingerprint
-ro.vendor.fingerprint.force_calibrate=true   
+ro.vendor.fingerprint.force_calibrate=true
 ro.vendor.fingerprint.sensor_location=540|1815|140
 ro.vendor.fingerprint.type=udfps
 
