@@ -176,16 +176,13 @@ vendor/firmware/bcmdhd_sta.bin_b1
 vendor/firmware/nvram.txt_1rh_es43_b1
 vendor/firmware/nvram.txt_CS01_semco_b1
 
-# Audio policy configs (restored - confirmed present in dump)
+# Audio policy configs 
 vendor/etc/mixer_gains.xml
 vendor/etc/audio_effects_common.conf
 vendor/etc/audio_effects_sec.xml
-vendor/etc/audio_policy_volumes.xml
-vendor/etc/default_volume_tables.xml
 vendor/etc/hearing_aid_audio_policy_configuration.xml
 vendor/etc/mixer_paths.xml
 vendor/etc/playback_record_audio_policy_configuration.xml
-vendor/etc/r_submix_audio_policy_configuration.xml
 vendor/etc/usb_audio_policy_configuration.xml
 
 # Voice trigger HAL
