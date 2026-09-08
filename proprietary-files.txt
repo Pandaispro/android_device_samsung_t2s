@@ -194,6 +194,3 @@ vendor/firmware/txse4.bin
 
 # Bluetooth
 vendor/firmware/bcm4375B1_semco.hcd
-
-# DRM
-vendor/lib/liboemcrypto.so
