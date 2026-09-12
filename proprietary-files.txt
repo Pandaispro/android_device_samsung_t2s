@@ -194,4 +194,4 @@ vendor/firmware/txse4.bin
 
 # Bluetooth
 vendor/firmware/bcm4375B1_semco.hcd
-system/bin/mafpc_write
+vendor/bin/mafpc_write
